@@ -1,3 +1,6 @@
+clear;
+clc;
+close all;
 I=imread('HW2_einstein_orig.tif');
 J = histeq(I);
 imshow(J)
